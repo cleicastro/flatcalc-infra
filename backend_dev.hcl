@@ -1,5 +1,5 @@
 bucket         = "tfstate-flatcalc-263822963588"
-key            = "prod/terraform.tfstate"
+key            = "dev/terraform.tfstate"
 region         = "us-east-1"
 encrypt        = true
-dynamodb_table = "flatcalc-terraform-prod"
+dynamodb_table = "flatcalc-terraform-dev"
